@@ -5,23 +5,26 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
 </head>
 <body>
 
 <form id="myForm">
   Start Date: <input id="start">
-  Calories: <input id="calories" type="calories" name="calories" value="">
+  Calories: <input id="calories" type="text" name="calories">
  <!--  make this a drop Down -->
-  Description: <input id="description" type="description" name="calories" value="">
+  Description: <input id="description" type="text" name="calories">
+  Food Group: <input id="foodGroup" type="text">
+
 <input type="submit" value="submit">
-</form> 
- 
+</form>
+
 
 <ul id="results">
 </ul>
 
-
+<!-- this is a comment -->
 </body>
 
-<script src="tracker.js"></script>
+<script src="app.js"></script>
 </html>
